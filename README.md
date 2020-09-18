@@ -23,6 +23,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias.
 * [Axios](https://github.com/axios/axios)
 * [Cors](https://github.com/expressjs/cors)
 * [SPA](https://blog.schoolofnet.com/o-que-e-uma-spa-single-page-application/)
+* [SQlite](https://www.sqlite.org/index.html)
+
+## :pencil2: Justificativa do banco de dados escolhido.
+Utilizei o banco de dados SQlite, por ser um bando de dados relacional e ser um dos bancos mais utilizados no meio comercial atualmente, e outra questão, de eu mesmo ter estruturado bem o projeto antes de iniciar, com isso eu já tinha feito os relacionamento preciso. Outro diferencial, como é um banco relacional é de grande facilidade de mudar para outro, caso precise.
 
 ## :paperclip: Funcionamento
 - Criando, listando e deletando.
