@@ -40,7 +40,7 @@ Para rodar o código, primeiro fazer um git clone do repositório e depois na pa
 mkdir name_folder
 
 //Capture your github project
-git clone https://github.com/otavioluism/schedule_users.git
+git clone https://github.com/otavioluism/register-users.git
  
 //Install dependencies on the server and the web
 yarn
