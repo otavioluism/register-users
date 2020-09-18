@@ -33,7 +33,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias.
 
 
 ## :gear: Como utilizar
-Para rodar o código, primeiro fazer um git clone do repositório e depois na pasta que foi criada, abrir o terminal e seguir os seguintes comandos abaixo.
+- Segue os comandos abaixo;
 
 ``` JavaScript
 // Create a folder on your computer
