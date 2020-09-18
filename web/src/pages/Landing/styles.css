@@ -1,0 +1,81 @@
+#page-landing { 
+width: 100vw;
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: var(--color-background);
+
+color: var(--color-primary-lighter);
+}
+
+.logo-container img { 
+  height: 8rem;
+}
+
+.logo-container { 
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.logo-container h2 { 
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 4.6rem;
+  margin-top: 0.8rem;
+}
+
+.buttons-container { 
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.buttons-container a { 
+  width: 30rem;
+  height: 10.4rem;
+  border-radius: 0.8rem;
+  font: 700 2.0rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.buttons-container a:first-child { 
+  margin-right: 1.6rem;
+}
+
+.buttons-container a img { 
+  margin-right: 0.8rem;
+  width: 4rem;
+}
+
+.buttons-container a.cadastrar { 
+  background: var(--color-button-backgroud-primary);
+  transition: opacity 0.3s;
+}
+
+.buttons-container a.listar{ 
+  background: var(--color-primary-lighter);
+  transition: opacity 0.3s;
+}
+
+.buttons-container a.cadastrar:hover, a.listar:hover { 
+  opacity: 0.7;
+}
+
+.total-connections { 
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-connections img { 
+  margin-left: 0.8rem;
+}

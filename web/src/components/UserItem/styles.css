@@ -1,0 +1,129 @@
+.user-item {
+  border: 1px solid #FFF;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  overflow: hidden;
+}
+
+.user-item header { 
+  padding: 3.2rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.user-item header img { 
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.user-item header div { 
+  margin-left: 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-item header div strong { 
+  font: 700 2.4rem Archivo;
+}
+
+.user-item header div span {
+  font-size: 1.4rem;
+  margin-top: 0.45rem;
+  color: rgba(0, 0 , 0, 0.6);
+ }
+
+.user-item .dados{ 
+  margin: 0rem 2.4rem 0rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-item .dados h1{
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.user-item .dados .contatos, .address{ 
+  margin-top: 2rem;
+}
+
+.user-item .dados h3 { 
+  margin-top: 1.2rem;
+}
+
+.user-item .dados p { 
+  color: rgba(0, 0 , 0, 0.6);
+}
+
+.user-item .dados .alterar { 
+  margin-top: 1rem;
+}
+
+.user-item .dados .alterar button{ 
+  width: 7rem;
+  height: 5rem;
+  border-radius: 8rem;
+  border: none;
+  outline-style: none;
+  color: rgba(0, 0 , 0, 0.6);
+}
+
+.user-item .dados .alterar button:hover { 
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.user-item .dados .alterar button.excluir { 
+  background: rgba(196, 0 , 0, 0.6);
+  font: 700 1.5rem Archivo;
+}
+
+.user-item footer { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-item footer a { 
+  margin: 2rem auto;
+  text-decoration: none;
+  width: 20rem;
+  height: 6rem;
+  background: #94BE2A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8rem;
+  color: rgba(0, 0 , 0, 0.6);;
+  transition: opacity .2s;
+  font: 700 1.6rem Archivo;
+}
+
+.user-item footer a:hover { 
+  opacity: 0.8;
+}
+
+.user-item footer a img { 
+  margin-right: 1rem;
+}
+
+@media (min-width: 700px){ 
+  .user-item header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user-item header div { 
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .user-item .dados {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+}
